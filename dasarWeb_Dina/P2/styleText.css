@@ -3,3 +3,8 @@
     text-align: center;
     text-decoration: underline;
 }
+
+p {
+    /* garis bawah*/
+    text-decoration: underline;
+}
