@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas Besar HTML Membuat Form Dina</title>
+</head>
+
+<body>
+    <form method="POST" action="gambar.html">
+        <fieldset>
+            <legend>Data Mahasiswa</legend>
+            <label for="nama">Nama: </label>
+            <input type="text" id="nama" name="nama" required style="margin-left: 57px;"><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required style="margin-left: 57px;"><br><br>
+
+            <label for="tglLahir">Tanggal lahir: </label>
+            <input type="date" id="tglLahir" name="tglLahir" required style="margin-left: 5px;"><br><br>
+
+            <label for="jenisKelamin">Jenis Kelamin: </label>
+            <select name="jenisKelamin" size="1">
+                    <option value="lakiLaki" selected>Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select> <br><br>
+
+            <label for="alamat">Alamat: </label><br>
+            <textarea name="alamat" cols="94" rows="10"></textarea><br>
+        </fieldset>
+        <fieldset>
+            <legend>Komentar</legend><br>
+            <label for="komentar1">Darimana Anda mengetahui buku ini?</label>
+            <select name="komentar1" size="1">
+                    <option value="google" selected>Google</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="dosen">Dosen</option>
+                    <option value="teman">Teman</option>
+                    <option value="lainnya">Lainnya</option>
+                </select> <br><br>
+
+            <label for="komentar2">Bagaimana Menurut anda terhadap buku ini?</label><br>
+            <input type="radio" name="komentar2" value="Biasa">Biasa
+            <input type="radio" name="komentar2" value="Bagus">Bagus
+            <input type="radio" name="komentar2" value="Menarik">Menarik <br><br>
+
+            <label for="komentar3">Komentar Anda: </label><br>
+            <textarea name="komentar3" cols="40" rows="6"></textarea><br><br>
+
+            <input type="checkbox" name="kirimKeEmail" value="keEmail" checked>Kirim ke Email bila ada info terbaru
+        </fieldset><br>
+        <center>
+            <input type="submit" name="submit" value="Kirim">
+        </center>
+    </form>
+</body>
+
+</html>
