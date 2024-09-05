@@ -15,10 +15,21 @@ body {
 /* Latihan 1 */
 
 .container-satu {
-    width: 800px;
+    width: 820px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+}
+
+.sidebar-satu,
+.sidebar-dua {
+    flex: 0.5;
+    padding: 2px;
+}
+
+.kolom-utama {
+    flex: 2;
+    padding: 0 15px;
 }
