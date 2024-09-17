@@ -55,4 +55,11 @@ echo "Hasil penugasan -= : $kurang <br>";
 echo "Hasil penugasan *= : $kali <br>";
 echo "Hasil penugasan /= : $bagi <br>";
 echo "Hasil penugasan %= : $penugasanSisaBagi <br>";
+
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;  
+
+echo "<br><br>Hasil dari perhitungan operator identik <br><br>";
+echo "Hasil identik : $hasilIdentik <br>";
+echo "Hasil tidak identik : $hasilTidakIdentik <br>";
 ?>
