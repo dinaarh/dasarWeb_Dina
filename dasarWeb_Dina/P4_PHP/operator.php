@@ -42,4 +42,17 @@ echo "Hasil AND(dan) : $hasilAnd <br>";
 echo "Hasil OR(atau) : $hasilOr <br>";
 echo "Hasil NOT(negasi) a : $hasilNotA <br>";
 echo "Hasil NOT(negasi) b : $hasilNotB <br>";
+
+$jumlah = $a += $b;
+$kurang = $a -= $b; 
+$kali = $a *= $b;
+$bagi = $a /= $b;
+$penugasanSisaBagi = $a %= $b;
+
+echo "<br><br>Hasil dari perhitungan operator penugasan <br><br>";
+echo "Hasil penugasan += : $jumlah <br>";
+echo "Hasil penugasan -= : $kurang <br>";
+echo "Hasil penugasan *= : $kali <br>";
+echo "Hasil penugasan /= : $bagi <br>";
+echo "Hasil penugasan %= : $penugasanSisaBagi <br>";
 ?>
