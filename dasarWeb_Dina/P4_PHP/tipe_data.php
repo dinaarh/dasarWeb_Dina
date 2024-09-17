@@ -26,4 +26,12 @@ echo "Bahasa Indonesia: {$nilaiBahasaIndonesia} <br>";
 echo "Rata-rata: {$rataRata} <br>";
 
 var_dump($rataRata);
+
+echo "<br>";
+$apakahSiswaLulus = true;
+$apakahSiswaSudahUjian = false;
+
+var_dump($apakahSiswaLulus);
+echo "<br>";
+var_dump($apakahSiswaSudahUjian);
 ?>
