@@ -19,7 +19,8 @@ if ($harga_produk > $batas_diskon) {
 } else {
     // tidak memenuhi syarat diskon, harga tetap
     $harga_akhir = $harga_produk;
-    echo "Tidak mendapat diskon, harga tetap: Rp " . number_format($harga_produk, 0, ',', '.');
+    echo "<center>====================================</center><br>";
+    echo "<center>Tidak mendapat diskon, harga tetap: Rp " . number_format($harga_produk, 0, ',', '.'). "</center>";
 }
 
 ?>
