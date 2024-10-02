@@ -12,6 +12,16 @@
         echo $Listdosen[2] . "<br>";
         echo $Listdosen[0] . "<br>";
         echo $Listdosen[1] . "<br>";
+
+        echo "<br><b>List dosen dengan perulangan foreach: <br></b>";
+        foreach ($Listdosen as $dosen) {
+            echo $dosen . "<br>";
+        }
+        
+        echo "<br><b>List dosen dengan perulangan for: <br></b>";
+        for ($i = 0; $i < count($Listdosen); $i++) { 
+            echo  $Listdosen[$i] . "<br>";
+        }
     ?>
 </body>
 
