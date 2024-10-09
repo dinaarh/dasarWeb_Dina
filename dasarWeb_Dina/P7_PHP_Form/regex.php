@@ -41,4 +41,13 @@
         echo "Tidak ada yang cocok!";
     }
 
+    echo "<br><hr>";
+    $pattern = '/go{1,2}d/'; // (o muncul antara 1 dan 2 kali)
+    $text = 'god is good';
+    if (preg_match_all($pattern, $text, $matches)) {
+        echo "Cocokkan: " . implode(', ', $matches[0]);
+    } else {
+        echo "Tidak ada yang cocok!";
+    }
+
 ?>
